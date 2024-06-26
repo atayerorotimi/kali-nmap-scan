@@ -1,0 +1,20 @@
+# Nmap 7.94SVN scan initiated Wed Jun 26 05:00:29 2024 as: nmap -oN nmap_scan_result 198.187.31.104
+Nmap scan report for 198.187.31.104
+Host is up (0.30s latency).
+Not shown: 987 filtered tcp ports (no-response)
+PORT    STATE  SERVICE
+20/tcp  closed ftp-data
+21/tcp  open   ftp
+25/tcp  open   smtp
+26/tcp  open   rsftp
+53/tcp  open   domain
+80/tcp  open   http
+110/tcp open   pop3
+143/tcp open   imap
+443/tcp open   https
+465/tcp open   smtps
+587/tcp open   submission
+993/tcp open   imaps
+995/tcp open   pop3s
+
+# Nmap done at Wed Jun 26 05:00:42 2024 -- 1 IP address (1 host up) scanned in 13.72 seconds
